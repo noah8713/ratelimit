@@ -18,12 +18,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-package ratelimit // import "go.uber.org/ratelimit"
+package ratelimit // import "github.com/uber-go/ratelimit"
 
 import (
 	"time"
 
-	"go.uber.org/ratelimit/internal/clock"
+	"github.com/uber-go/ratelimit/internal/clock"
 	"sync/atomic"
 	"unsafe"
 )
